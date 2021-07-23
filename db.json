@@ -1,0 +1,67 @@
+{
+  "traininguri": [
+    {
+      "name": "",
+      "invitat": "",
+      "data": "",
+      "participant": [
+        {
+          "id": "",
+          "nume": "",
+          "prenume": "",
+          "e-mail": "",
+          "telefon": ""
+        }
+      ]
+    }
+  ],
+  "conferinte": [
+    {
+      "name": "",
+      "invitat": "",
+      "data": "",
+      "participant": [
+        {
+          "id": "",
+          "nume": "",
+          "prenume": "",
+          "e-mail": "",
+          "telefon": ""
+        }
+      ]
+    }
+  ],
+  "concursuri": [
+    {
+      "name": "",
+      "invitat": "",
+      "data": "",
+      "participant": [
+        {
+          "id": "",
+          "nume": "",
+          "prenume": "",
+          "e-mail": "",
+          "telefon": ""
+        }
+      ]
+    }
+  ],
+  "echipa": [
+    {
+      "id": "",
+      "nume": "",
+      "prenume": "",
+      "functie": "",
+      "poza": ""
+    }
+  ],
+  "parteneri": [
+    {
+      "id": "",
+      "nume": "",
+      "prenume": "",
+      "poza": ""
+    }
+  ]
+}
