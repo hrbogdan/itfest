@@ -7,7 +7,7 @@ import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
   { path: 'admin-login', component: AdminPanelComponent },
-  { path: 'home', component: HomeComponent },
+  { path: '', component: HomeComponent },
   {
     path: 'dashboard',
     component: DashboardComponent,
