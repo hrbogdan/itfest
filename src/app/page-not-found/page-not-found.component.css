@@ -1,0 +1,17 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.flex-container-error {
+  height: 100vh;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.error-404 {
+  width: 50%;
+  height: auto;
+}
