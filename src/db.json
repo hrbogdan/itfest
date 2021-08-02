@@ -1,27 +1,6 @@
 {
   "events": [
     {
-      "title": "anosr",
-      "description": "forum",
-      "date": "2023-05-29",
-      "image": "",
-      "id": 1
-    },
-    {
-      "title": "anosr",
-      "description": "forum",
-      "date": "2023-05-29",
-      "image": "",
-      "id": 11
-    },
-    {
-      "title": "papadie",
-      "description": "forum",
-      "date": "2021-07-17",
-      "image": "",
-      "id": 12
-    },
-    {
       "title": "neli",
       "description": "sings beautiful",
       "date": "2024-08-30",
@@ -40,21 +19,14 @@
       "description": "sings beautiful",
       "date": "2024-08-30",
       "image": "",
-      "id": 15
-    },
-    {
-      "title": "neli",
-      "description": "sings beautiful",
-      "date": "2024-08-30",
-      "image": "",
-      "id": 16
-    },
-    {
-      "title": "neli",
-      "description": "sings beautiful",
-      "date": "2024-08-30",
-      "image": "",
       "id": 17
+    },
+    {
+      "title": "george",
+      "description": "Guta",
+      "date": "2022-07-03",
+      "image": "",
+      "id": 18
     }
   ]
 }
