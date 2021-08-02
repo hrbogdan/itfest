@@ -24,6 +24,9 @@ import { HomeComponent } from './home/home.component';
 import { BodyComponent } from './dashboard/components/body/body.component';
 import { SideNavComponent } from './dashboard/components/side-nav/side-nav.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { EventsComponent } from './events/events.component';
+import { HttpClientModule } from '@angular/common/http';
+import { EventDetailComponent } from './event-detail/event-detail.component';
 
 @NgModule({
   declarations: [
@@ -34,6 +37,8 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     BodyComponent,
     SideNavComponent,
     PageNotFoundComponent,
+    EventsComponent,
+    EventDetailComponent,
   ],
   imports: [
     BrowserModule,
@@ -50,6 +55,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     MatButtonToggleModule,
     FormsModule,
     MatSidenavModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
