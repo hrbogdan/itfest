@@ -11,6 +11,7 @@
       <mat-form-field>
         <input
           matInput
+          id="firstName"
           name="firstName"
           placeholder="First Name"
           type="text"
@@ -25,6 +26,7 @@
       <mat-form-field>
         <input
           matInput
+          id="secondName"
           name="secondName"
           placeholder="Second Name"
           type="text"
@@ -38,6 +40,7 @@
       <mat-form-field>
         <input
           matInput
+          id="email"
           name="email"
           placeholder="E-mail"
           type="text"
@@ -54,6 +57,7 @@
         <textarea
           matInput
           cdkTextareaAutosize
+          id="message"
           name="message"
           placeholder="Write your message"
           required
@@ -63,7 +67,9 @@
           This field is required.
         </div>
       </mat-form-field>
-      <button mat-raised-button type="submit">Send it</button>
+      <button mat-raised-button type="submit" [disabled]="checkInputs()">
+        Send it
+      </button>
       <!--
       <div class="alert-danger" role="alert" *ngIf="isFormInvalid">
         Please fill all fields

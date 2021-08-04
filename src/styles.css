@@ -6,4 +6,5 @@ body {
   margin: 0;
   font-family: "Lato", sans-serif;
   text-align: left;
+  /* overflow: hidden; */
 }

@@ -16,9 +16,21 @@ export class ContactComponent implements OnInit {
   isMessageValid = false;
 
   onSubmit(contactForm: NgForm) {
+    console.log(contactForm);
     if (!contactForm.valid) {
       this.isFirstNameValid = true;
     }
+  }
+
+  checkInputs() {
+    const firstName: any = document.getElementById('firstName');
+    const secondName: any = document.getElementById('secondName');
+    const email: any = document.getElementById('email');
+    const message: any = document.getElementById('message');
+    if (firstName.value && secondName.value && email.value && message.value) {
+      return false;
+    }
+    return true;
   }
 
   constructor(public contactsService: ContactService) {}
@@ -30,7 +42,8 @@ export class ContactComponent implements OnInit {
     });
   }
   public addContacts(form: NgForm) {
-    console.log(form.value);
+    // return alert(form.value.firstName);
+    console.log(form);
     console.log(this.contactsService.contacts);
     this.contactsService
       .addContacts(form.value)
