@@ -7,7 +7,9 @@ import { Observable } from 'rxjs';
 })
 export class EventService {
   public events: Event[] = [];
+
   constructor(private http: HttpClient) {}
+
   public getEvents(): Observable<Event[]> {
     return this.http.get<Event[]>('http://localhost:3000/events');
   }

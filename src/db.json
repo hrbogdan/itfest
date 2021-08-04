@@ -28,5 +28,14 @@
       "image": "",
       "id": 18
     }
+  ],
+  "contact": [
+    {
+      "firstName": "george",
+      "secondName": "drăgan",
+      "email": "ssss.sss",
+      "message": "bla bla",
+      "id": 1
+    }
   ]
 }

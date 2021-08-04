@@ -16,6 +16,7 @@ import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonToggleModule } from '@angular/material/button-toggle';
 import { MatSidenavModule } from '@angular/material/sidenav';
+import { TextFieldModule } from '@angular/cdk/text-field';
 
 import { FormsModule } from '@angular/forms';
 import { DashboardComponent } from './dashboard/dashboard.component';
@@ -27,6 +28,11 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { EventsComponent } from './events/events.component';
 import { HttpClientModule } from '@angular/common/http';
 import { EventDetailComponent } from './event-detail/event-detail.component';
+import { ContactComponent } from './contact/contact.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { AboutUsComponent } from './about-us/about-us.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -39,6 +45,9 @@ import { EventDetailComponent } from './event-detail/event-detail.component';
     PageNotFoundComponent,
     EventsComponent,
     EventDetailComponent,
+    ContactComponent,
+    AboutUsComponent,
+    NavbarComponent,
   ],
   imports: [
     BrowserModule,
@@ -56,6 +65,9 @@ import { EventDetailComponent } from './event-detail/event-detail.component';
     FormsModule,
     MatSidenavModule,
     HttpClientModule,
+    NgbModule,
+    TextFieldModule,
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
