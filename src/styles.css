@@ -6,5 +6,8 @@ body {
   margin: 0;
   font-family: "Lato", sans-serif;
   text-align: left;
-  /* overflow: hidden; */
+}
+
+.wrapper {
+  padding: 75px 15px;
 }

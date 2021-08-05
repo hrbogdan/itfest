@@ -20,57 +20,7 @@
       "date": "2024-08-30",
       "image": "",
       "id": 17
-    },
-    {
-      "title": "george",
-      "description": "Guta",
-      "date": "2022-07-03",
-      "image": "",
-      "id": 18
     }
   ],
-  "contact": [
-    {
-      "firstName": "george",
-      "secondName": "drăgan",
-      "email": "ssss.sss",
-      "message": "bla bla",
-      "id": 1
-    },
-    {
-      "firstName": "Raicu",
-      "secondName": "Hari",
-      "email": "sdadsad",
-      "message": "dd",
-      "id": 2
-    },
-    {
-      "firstName": "",
-      "secondName": "",
-      "email": "",
-      "message": "",
-      "id": 3
-    },
-    {
-      "firstName": "",
-      "secondName": "",
-      "email": "",
-      "message": "",
-      "id": 4
-    },
-    {
-      "firstName": "",
-      "secondName": "",
-      "email": "",
-      "message": "",
-      "id": 5
-    },
-    {
-      "firstName": "dasd",
-      "secondName": "dasd",
-      "email": "dsada",
-      "message": "dsada",
-      "id": 6
-    }
-  ]
+  "contact": []
 }
